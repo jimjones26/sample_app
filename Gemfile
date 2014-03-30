@@ -8,6 +8,10 @@ gem 'pg'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
 	gem 'rspec-rails'
+	gem 'guard-rspec'
+	gem 'spork-rails'
+	gem 'guard-spork'
+	gem 'childprocess'
 end
 # END DEVELOPMENT
 
@@ -15,6 +19,7 @@ end
 group :test do
 	gem 'selenium-webdriver'
 	gem 'capybara'
+	gem 'growl', '1.0.3'
 end
 
 # Use SCSS for stylesheets
