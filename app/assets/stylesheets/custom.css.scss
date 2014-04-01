@@ -25,6 +25,15 @@ textarea {
   }
 }
 
+ul {
+  float: right;
+  list-style: none;
+  li {
+    float: left;
+    margin-left: 10px;
+  }
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
